@@ -1,0 +1,46 @@
+/* global */
+html,
+body {
+  background-color: #666;
+  color: #ccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+div {
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+::selection {
+  background: rgba(68, 214, 44, 0.3);
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.dim {
+  color: #707070;
+}
+
+/* flex */
+div.flex {
+  display: flex;
+}
+div.flex > div {
+  flex: auto;
+}
+.flex-row-20 {
+  min-width: 20px;
+  max-width: 20px;
+  height: 5px;
+}
+.flex-col-30 {
+  min-height: 30px;
+  max-height: 30px;
+  width: 5px;
+}
