@@ -42,6 +42,10 @@ The task was to convert the provided `eq.html` into React components and utilize
   - After 3 seconds of a change in the profile list, a dummy API call is made, passing the profile list array.
   - If the user makes a change before the 3 seconds, the timeout is reset.
 
+### Install dependencies:
+
+- npm install
+
 ### Run the JSON server for the dummy API:
 
 - npx json-server --watch data/profiles.json --port 3001
